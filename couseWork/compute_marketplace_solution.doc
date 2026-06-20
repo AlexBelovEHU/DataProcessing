@@ -1,0 +1,131 @@
+{\rtf1\ansi\deff0
+{\fonttbl{\f0 Calibri;}{\f1 Consolas;}}
+\paperw11906\paperh16838\margl1440\margr1440\margt1440\margb1440
+\fs24
+\b Compute Marketplace Data Solution Documentation\b0\par
+\par
+\b 1. Solution scope\b0\par
+This project contains two separate database layers for a distributed compute marketplace. The transactional OLTP layer stores current operational data required to run the platform. The analytical OLAP layer stores aggregated and historized data for management reporting, trend analysis, and Power BI dashboards.\par
+\par
+\b 2. OLTP database context\b0\par
+The OLTP database stores day-to-day platform operations. It is optimized for inserts, updates, foreign-key integrity, and point lookups. The main business processes are user onboarding, node registration, task submission, job scheduling, validation, metrics capture, billing, and provider payouts.\par
+\par
+OLTP entities are organized in schema \f1 compute_marketplace\f0  and include:\par
+- users and profiles for account identity and current balance\par
+- nodes, node_specs, and node_pricing for provider resources\par
+- tasks, task_configs, and jobs for workload orchestration\par
+- job_results, validations, job_metrics, and job_logs for execution evidence\par
+- transactions, job_costs, and payouts for financial operations\par
+\par
+The OLTP source-loading design uses CSV files without surrogate keys. Natural or business keys such as email, node_code, task_ref, job_ref, transaction_ref, and payout_ref are used in the source data. During loading, these values are resolved into internal identity-based foreign keys inside PostgreSQL.\par
+\par
+\b 3. OLAP database context\b0\par
+The OLAP database is stored separately in database \f1 compute_marketplace_olap\f0 . It is designed for analytical questions rather than transactional processing. The warehouse uses a snowflake schema with conformed dimensions, aggregated fact tables, one SCD Type 2 dimension, and one bridge table for multi-valued workload parameters.\par
+\par
+Primary analytical questions supported by the OLAP layer include:\par
+- Which solver families generate the most workload and cost by day or month?\par
+- Which providers and node tiers execute the most valuable jobs?\par
+- How do runtime, utilization, and validation outcomes vary across workloads?\par
+- Which workload parameters are associated with high cost or long runtime?\par
+- How do buyer charges and provider payouts evolve over time?\par
+\par
+\b 4. Overall schema description\b0\par
+\b 4.1 OLTP schema\b0\par
+The OLTP structure is normalized to third normal form. Lookup tables separate repeated status and type values from transactional tables. Core rules are enforced through primary keys, foreign keys, unique constraints, and domain checks.\par
+\par
+Important OLTP keys and constraints:\par
+- \f1 users.email\f0  is unique\par
+- \f1 profiles.user_id\f0  is a one-to-one extension of \f1 users\f0 \par
+- \f1 nodes.node_code\f0 , \f1 tasks.task_ref\f0 , \f1 jobs.job_ref\f0 , \f1 transactions.transaction_ref\f0 , and \f1 payouts.payout_ref\f0  are unique business references\par
+- one-to-one tables such as \f1 task_configs\f0 , \f1 job_results\f0 , \f1 validations\f0 , and \f1 job_costs\f0  use the parent identifier as both primary key and foreign key\par
+- \f1 job_metrics\f0  and \f1 job_logs\f0  use composite primary keys because they represent repeated events over time\par
+- check constraints protect non-negative balances, prices, and costs, and also enforce valid runtime ordering\par
+\par
+Critical OLTP indexes support operational access patterns:\par
+- \f1 jobs(task_id, status_code)\f0 \par
+- \f1 jobs(node_id)\f0 \par
+- \f1 job_metrics(job_id, metric_timestamp)\f0 \par
+- \f1 transactions(user_id, created_at)\f0 \par
+- \f1 nodes(status_code)\f0 \par
+\par
+\b 4.2 OLAP schema\b0\par
+The OLAP model does not duplicate the OLTP structure. Instead, it stores summarized daily facts and reusable analytical dimensions.\par
+\par
+Dimensions:\par
+- \f1 dim_date\f0  for calendar analysis\par
+- \f1 dim_organization\f0  for organizational grouping\par
+- \f1 dim_user_account_scd2\f0  as the SCD Type 2 dimension that tracks user role and organization history\par
+- \f1 dim_solver_family\f0  and \f1 dim_solver\f0  for solver hierarchy\par
+- \f1 dim_workload_profile\f0  for workload-level analytical grouping\par
+- \f1 dim_parameter_tag\f0  plus \f1 bridge_workload_parameter_tag\f0  to analyze multi-valued JSON parameters\par
+- \f1 dim_gpu_family\f0  and \f1 dim_node\f0  for hardware classification\par
+- \f1 dim_task_status\f0 , \f1 dim_job_outcome\f0 , and \f1 dim_finance_event\f0  for reporting categories\par
+\par
+Fact tables:\par
+- \f1 fact_task_daily\f0  aggregates tasks created, requested jobs, estimated cost, actual cost, and completion/failure counts\par
+- \f1 fact_job_execution_daily\f0  aggregates job count, runtime, cost, and average resource utilization\par
+- \f1 fact_finance_daily\f0  aggregates transaction and payout flows by day\par
+\par
+The bridge table \f1 bridge_workload_parameter_tag\f0  is required because a single workload can contain multiple parameter tags extracted from \f1 parameters_json\f0 . This allows slice-and-dice analysis by mesh size, iteration count, case name, and other workload attributes.\par
+\par
+\b 5. Scripts and generated assets\b0\par
+Files prepared in folder \f1 couseWork\f0 :\par
+- \f1 init_compute_marketplace_oltp.sql\f0 : creates the OLTP schema and lookup data\par
+- \f1 load_compute_marketplace_oltp.sql\f0 : loads CSV data into the OLTP schema in a rerunnable way\par
+- \f1 init_compute_marketplace_olap.sql\f0 : creates the separate OLAP database, warehouse schema, dimensions, facts, and reporting views\par
+- \f1 etl_oltp_to_olap.sql\f0 : moves data from OLTP to OLAP through rerunnable SQL ETL\par
+- \f1 oltp_insight_queries.sql\f0 : transactional insight queries\par
+- \f1 olap_insight_queries.sql\f0 : analytical insight queries\par
+- \f1 generate_schema_diagram.py\f0 : generates the OLTP schema SVG\par
+- \f1 generate_olap_assets.py\f0 : generates the OLAP schema SVG and Power BI report wireframe SVG\par
+- \f1 compute_marketplace_schema.svg\f0 : OLTP logical schema picture\par
+- \f1 compute_marketplace_olap_schema.svg\f0 : OLAP logical schema picture\par
+- \f1 power_bi_report_wireframe.svg\f0 : report layout mockup\par
+- \f1 power_bi_report_spec.md\f0 : Power BI visual and DAX specification\par
+\par
+\b 6. How to run the solution\b0\par
+\b 6.1 Load OLTP data\b0\par
+1. Open \f1 psql\f0  connected to the PostgreSQL server that will host the transactional schema.\par
+2. Run \f1 init_compute_marketplace_oltp.sql\f0 .\par
+3. Change the current directory to the folder that contains the \f1 data\f0  subfolder, because \f1 load_compute_marketplace_oltp.sql\f0  uses relative \f1 \copy\f0  paths.\par
+4. Run \f1 load_compute_marketplace_oltp.sql\f0 .\par
+\par
+Example:\par
+\f1 psql -d your_oltp_database -f init_compute_marketplace_oltp.sql\par
+psql -d your_oltp_database -f load_compute_marketplace_oltp.sql\f0 \par
+\par
+\b 6.2 Create and load the OLAP database\b0\par
+1. Run \f1 init_compute_marketplace_olap.sql\f0  from \f1 psql\f0 . It creates database \f1 compute_marketplace_olap\f0  if it does not exist.\par
+2. Review the connection variable in \f1 etl_oltp_to_olap.sql\f0 . The default is:\par
+\f1 host=localhost port=5432 dbname=compute_marketplace_oltp user=postgres\f0 \par
+3. If needed, override the OLTP connection string with \f1 -v oltp_conn='...'\f0 .\par
+4. Run \f1 etl_oltp_to_olap.sql\f0 .\par
+\par
+Example:\par
+\f1 psql -d postgres -f init_compute_marketplace_olap.sql\par
+psql -d compute_marketplace_olap -v oltp_conn='host=localhost port=5432 dbname=your_oltp_database user=postgres' -f etl_oltp_to_olap.sql\f0 \par
+\par
+The ETL is rerunnable. It uses conditional updates, SCD2 change detection, and fact upserts so unchanged rows are not rewritten.\par
+\par
+\b 6.3 Generate diagrams\b0\par
+From folder \f1 couseWork\f0 :\par
+\f1 python generate_schema_diagram.py\par
+python generate_olap_assets.py\f0 \par
+\par
+\b 6.4 Build the Power BI report\b0\par
+1. Connect Power BI to database \f1 compute_marketplace_olap\f0 .\par
+2. Import views \f1 marketplace_dw.vw_powerbi_task_summary\f0 , \f1 marketplace_dw.vw_powerbi_job_execution\f0 , and \f1 marketplace_dw.vw_powerbi_finance\f0 .\par
+3. Create the report title \f1 Compute Marketplace Performance Overview\f0 .\par
+4. Add at least two slicers. The prepared design uses three: month, solver family, and provider organization.\par
+5. Add at least three visual components. The prepared design uses clustered column, donut, bar, line, and KPI card visuals.\par
+\par
+\b 7. Insight query packs\b0\par
+\b 7.1 OLTP queries\b0 \par
+The OLTP query script focuses on operational insight: buyer demand and spend, provider utilization, financial positions, and data-quality risk.\par
+\par
+\b 7.2 OLAP queries\b0 \par
+The OLAP query script focuses on historical and aggregated insight: monthly demand by solver family, provider efficiency by tier, workload parameter impact through the bridge table, SCD2 history review, and net finance movement.\par
+\par
+\b 8. Notes\b0\par
+If \f1 psql\f0  or Power BI Desktop are not installed on the machine, the SQL files and report specification can still be reviewed as plain text, but end-to-end execution must be done in an environment with PostgreSQL client tools and Power BI available.\par
+}

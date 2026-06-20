@@ -1,0 +1,6 @@
+email,password_hash,role_code,name,organization,balance,created_at
+alice.buyer@example.com,$2b$12$aliceBuyerHash,buyer,Alice Mirova,Acme CFD Lab,1200.00,2026-06-01 09:00:00+00
+boris.buyer@example.com,$2b$12$borisBuyerHash,buyer,Boris Levin,Boreal Simulations,850.00,2026-06-02 10:15:00+00
+nina.provider@example.com,$2b$12$ninaProviderHash,provider,Nina Sokolova,North GPU Cloud,0.00,2026-05-28 08:30:00+00
+oleg.provider@example.com,$2b$12$olegProviderHash,provider,Oleg Antonov,Omega Compute,0.00,2026-05-30 12:00:00+00
+admin@example.com,$2b$12$platformAdminHash,admin,Platform Admin,Marketplace Ops,0.00,2026-05-25 07:45:00+00

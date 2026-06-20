@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#f3efe7" />
+<text x="48" y="54" font-size="30" font-weight="700" fill="#1d1917">Compute Marketplace Performance Overview</text>
+<text x="48" y="82" font-size="16" fill="#5b4f49">Power BI wireframe based on the OLAP reporting views.</text>
+<rect x="48" y="118" width="260" height="92" rx="18" fill="#fffaf4" stroke="#3a312d" stroke-width="2" />
+<text x="66" y="150" font-size="22" font-weight="700" fill="#1d1917">Slicer: Month</text>
+<text x="66" y="180" font-size="15" fill="#514741">2026-06, 2026-07, ...</text>
+<rect x="332" y="118" width="260" height="92" rx="18" fill="#fffaf4" stroke="#3a312d" stroke-width="2" />
+<text x="350" y="150" font-size="22" font-weight="700" fill="#1d1917">Slicer: Solver Family</text>
+<text x="350" y="180" font-size="15" fill="#514741">CFD Solvers, Other Solvers</text>
+<rect x="616" y="118" width="260" height="92" rx="18" fill="#fffaf4" stroke="#3a312d" stroke-width="2" />
+<text x="634" y="150" font-size="22" font-weight="700" fill="#1d1917">Slicer: Provider Org</text>
+<text x="634" y="180" font-size="15" fill="#514741">North GPU Cloud, Omega Compute</text>
+<rect x="920" y="118" width="190" height="92" rx="18" fill="#fffaf4" stroke="#3a312d" stroke-width="2" />
+<text x="938" y="150" font-size="18" font-weight="700" fill="#1d1917">Total Job Cost</text>
+<text x="938" y="186" font-size="28" font-weight="700" fill="#2f5d50">$182.7K</text>
+<rect x="1130" y="118" width="190" height="92" rx="18" fill="#fffaf4" stroke="#3a312d" stroke-width="2" />
+<text x="1148" y="150" font-size="18" font-weight="700" fill="#1d1917">Completed Jobs</text>
+<text x="1148" y="186" font-size="28" font-weight="700" fill="#355c7d">4,812</text>
+<rect x="1340" y="118" width="190" height="92" rx="18" fill="#fffaf4" stroke="#3a312d" stroke-width="2" />
+<text x="1358" y="150" font-size="18" font-weight="700" fill="#1d1917">Avg Runtime</text>
+<text x="1358" y="186" font-size="28" font-weight="700" fill="#c06c4e">97 min</text>
+<rect x="48" y="250" width="760" height="280" rx="22" fill="#fffaf4" stroke="#3a312d" stroke-width="2" />
+<text x="72" y="286" font-size="24" font-weight="700" fill="#1d1917">Daily Job Cost by Solver Family</text>
+<line x1="96" y1="476" x2="760" y2="476" stroke="#6e625b" stroke-width="2" />
+<line x1="96" y1="320" x2="96" y2="476" stroke="#6e625b" stroke-width="2" />
+<rect x="150" y="390" width="60" height="86" fill="#2f5d50" />
+<rect x="222" y="360" width="60" height="116" fill="#355c7d" />
+<rect x="294" y="332" width="60" height="144" fill="#c06c4e" />
+<rect x="418" y="408" width="60" height="68" fill="#2f5d50" />
+<rect x="490" y="356" width="60" height="120" fill="#355c7d" />
+<rect x="562" y="318" width="60" height="158" fill="#c06c4e" />
+<text x="140" y="504" font-size="14" fill="#514741">Week 1</text>
+<text x="406" y="504" font-size="14" fill="#514741">Week 2</text>
+<text x="640" y="340" font-size="14" fill="#2f5d50">OpenFOAM</text>
+<text x="640" y="364" font-size="14" fill="#355c7d">SU2</text>
+<text x="640" y="388" font-size="14" fill="#c06c4e">Other</text>
+<rect x="840" y="250" width="340" height="280" rx="22" fill="#fffaf4" stroke="#3a312d" stroke-width="2" />
+<text x="864" y="286" font-size="24" font-weight="700" fill="#1d1917">Validation Outcome Mix</text>
+<circle cx="1010" cy="390" r="92" fill="#e8e0d2" />
+<path d="M 1010 390 L 1010 298 A 92 92 0 1 1 935 438 z" fill="#2f5d50" />
+<path d="M 1010 390 L 935 438 A 92 92 0 0 1 1010 482 z" fill="#c06c4e" />
+<circle cx="1010" cy="390" r="44" fill="#fffaf4" />
+<text x="1090" y="352" font-size="15" fill="#514741">Completed and valid</text>
+<text x="1090" y="378" font-size="15" fill="#514741">Completed but invalid</text>
+<text x="1090" y="404" font-size="15" fill="#514741">Running / queued</text>
+<rect x="1208" y="250" width="344" height="280" rx="22" fill="#fffaf4" stroke="#3a312d" stroke-width="2" />
+<text x="1232" y="286" font-size="24" font-weight="700" fill="#1d1917">Provider Payouts</text>
+<line x1="1260" y1="470" x2="1508" y2="470" stroke="#6e625b" stroke-width="2" />
+<rect x="1280" y="388" width="190" height="28" fill="#355c7d" />
+<rect x="1280" y="430" width="142" height="28" fill="#2f5d50" />
+<text x="1280" y="380" font-size="14" fill="#514741">North GPU Cloud</text>
+<text x="1280" y="422" font-size="14" fill="#514741">Omega Compute</text>
+<rect x="48" y="560" width="1504" height="280" rx="22" fill="#fffaf4" stroke="#3a312d" stroke-width="2" />
+<text x="72" y="596" font-size="24" font-weight="700" fill="#1d1917">Task Throughput and Cost Trend</text>
+<polyline points="100,760 220,720 340,736 460,680 580,650 700,620 820,630 940,590 1060,570 1180,534 1300,520 1420,500" fill="none" stroke="#2f5d50" stroke-width="4" />
+<polyline points="100,774 220,752 340,742 460,708 580,694 700,682 820,664 940,640 1060,622 1180,604 1300,590 1420,570" fill="none" stroke="#c06c4e" stroke-width="4" />
+<line x1="96" y1="780" x2="1460" y2="780" stroke="#6e625b" stroke-width="2" />
+<text x="100" y="810" font-size="14" fill="#514741">01 Jun</text>
+<text x="1340" y="810" font-size="14" fill="#514741">30 Jun</text>
+<text x="1240" y="620" font-size="14" fill="#2f5d50">Task count</text>
+<text x="1240" y="646" font-size="14" fill="#c06c4e">Actual cost</text>
+</svg>

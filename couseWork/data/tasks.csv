@@ -1,0 +1,4 @@
+task_ref,buyer_email,status_code,created_at,total_cost,solver_type,parameters_json,docker_image,estimated_cost
+TASK-2026-0001,alice.buyer@example.com,completed,2026-06-18 08:10:00+00,182.70,OpenFOAM,"{""case"":""airfoil"",""mesh_cells"":2200000,""iterations"":1200}",ghcr.io/acme/openfoam:2312,175.00
+TASK-2026-0002,boris.buyer@example.com,running,2026-06-19 12:00:00+00,0.00,SU2,"{""case"":""wing"",""mach"":0.72,""steps"":600}",ghcr.io/acme/su2:8.0,120.00
+TASK-2026-0003,alice.buyer@example.com,created,2026-06-20 09:15:00+00,0.00,OpenFOAM,"{""case"":""manifold"",""mesh_cells"":480000,""iterations"":300}",ghcr.io/acme/openfoam:2312,42.00

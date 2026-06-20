@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1780" height="1080" viewBox="0 0 1780 1080">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#6b4f45" /></marker></defs>
+<rect width="1780" height="1080" fill="#f4efe8" />
+<text x="40" y="38" font-size="30" font-weight="700" fill="#1e1a18">Compute Marketplace OLAP Snowflake Schema</text>
+<text x="40" y="64" font-size="16" fill="#4d423d">Separate OLAP database, aggregated facts, SCD Type 2 user dimension, and workload parameter bridge.</text>
+<path d="M 360 176 L 340 176 L 340 320 L 320 320" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="314" y="228" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="329" y="243" font-size="12" font-weight="700" fill="#6b4f45">SCD2</text>
+<path d="M 860 230 L 860 182" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="834" y="186" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="849" y="201" font-size="12" font-weight="700" fill="#6b4f45">snowflake</text>
+<path d="M 1050 154 L 1025 154 L 1025 291 L 1000 291" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="999" y="202" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="1014" y="217" font-size="12" font-weight="700" fill="#6b4f45">snowflake</text>
+<path d="M 1410 221 L 1395 221 L 1395 154 L 1380 154" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="1369" y="167" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="1384" y="182" font-size="12" font-weight="700" fill="#6b4f45">bridge</text>
+<path d="M 1575 282 L 1395 282 L 1395 300 L 1215 300" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="1369" y="271" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="1384" y="286" font-size="12" font-weight="700" fill="#6b4f45">bridge</text>
+<path d="M 360 565 L 340 565 L 340 550 L 320 550" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="314" y="537" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="329" y="552" font-size="12" font-weight="700" fill="#6b4f45">snowflake</text>
+<path d="M 200 780 L 190 780 L 190 226 L 180 226" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="164" y="483" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="179" y="498" font-size="12" font-weight="700" fill="#6b4f45">FK</text>
+<path d="M 200 780 L 360 780 L 360 292 L 520 292" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="334" y="516" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="349" y="531" font-size="12" font-weight="700" fill="#6b4f45">FK</text>
+<path d="M 200 780 L 707 780 L 707 248 L 1215 248" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="681" y="494" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="696" y="509" font-size="12" font-weight="700" fill="#6b4f45">FK</text>
+<path d="M 200 780 L 530 780 L 530 552 L 860 552" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="504" y="646" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="519" y="661" font-size="12" font-weight="700" fill="#6b4f45">FK</text>
+<path d="M 600 760 L 390 760 L 390 226 L 180 226" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="364" y="473" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="379" y="488" font-size="12" font-weight="700" fill="#6b4f45">FK</text>
+<path d="M 600 760 L 560 760 L 560 292 L 520 292" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="534" y="506" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="549" y="521" font-size="12" font-weight="700" fill="#6b4f45">FK</text>
+<path d="M 600 760 L 560 760 L 560 670 L 520 670" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="534" y="695" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="549" y="710" font-size="12" font-weight="700" fill="#6b4f45">FK</text>
+<path d="M 600 760 L 907 760 L 907 248 L 1215 248" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="881" y="484" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="896" y="499" font-size="12" font-weight="700" fill="#6b4f45">FK</text>
+<path d="M 600 760 L 730 760 L 730 764 L 860 764" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="704" y="742" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="719" y="757" font-size="12" font-weight="700" fill="#6b4f45">FK</text>
+<path d="M 1000 790 L 590 790 L 590 226 L 180 226" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="564" y="488" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="579" y="503" font-size="12" font-weight="700" fill="#6b4f45">FK</text>
+<path d="M 1000 790 L 760 790 L 760 292 L 520 292" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="734" y="521" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="749" y="536" font-size="12" font-weight="700" fill="#6b4f45">FK</text>
+<path d="M 1000 790 L 1107 790 L 1107 684 L 1215 684" fill="none" stroke="#6b4f45" stroke-width="3" marker-end="url(#arrow)" opacity="0.9" />
+<rect x="1081" y="717" width="60" height="22" rx="11" fill="#fffaf4" stroke="#6b4f45" stroke-width="1.5" />
+<text x="1096" y="732" font-size="12" font-weight="700" fill="#6b4f45">FK</text>
+<rect x="40" y="60" width="280" height="166" rx="18" fill="#f8f5ef" stroke="#2d2a26" stroke-width="2" />
+<rect x="40" y="60" width="280" height="44" rx="18" fill="#355c7d" stroke="#2d2a26" stroke-width="2" />
+<rect x="40" y="84" width="280" height="20" fill="#355c7d" stroke="none" />
+<text x="56" y="88" font-size="22" font-weight="700" fill="#fffdf9">dim_date</text>
+<line x1="40" y1="104" x2="320" y2="104" stroke="#2d2a26" stroke-width="2" />
+<text x="56" y="130" font-size="15" fill="#1c1816">date_key (PK)</text>
+<text x="56" y="152" font-size="15" fill="#1c1816">full_date</text>
+<text x="56" y="174" font-size="15" fill="#1c1816">month_name</text>
+<text x="56" y="196" font-size="15" fill="#1c1816">quarter_number</text>
+<text x="56" y="218" font-size="15" fill="#1c1816">year_number</text>
+<rect x="40" y="270" width="280" height="100" rx="18" fill="#f8f5ef" stroke="#2d2a26" stroke-width="2" />
+<rect x="40" y="270" width="280" height="44" rx="18" fill="#355c7d" stroke="#2d2a26" stroke-width="2" />
+<rect x="40" y="294" width="280" height="20" fill="#355c7d" stroke="none" />
+<text x="56" y="298" font-size="22" font-weight="700" fill="#fffdf9">dim_organization</text>
+<line x1="40" y1="314" x2="320" y2="314" stroke="#2d2a26" stroke-width="2" />
+<text x="56" y="340" font-size="15" fill="#1c1816">organization_sk (PK)</text>
+<text x="56" y="362" font-size="15" fill="#1c1816">organization_name</text>
+<rect x="360" y="60" width="320" height="232" rx="18" fill="#f8f5ef" stroke="#2d2a26" stroke-width="2" />
+<rect x="360" y="60" width="320" height="44" rx="18" fill="#355c7d" stroke="#2d2a26" stroke-width="2" />
+<rect x="360" y="84" width="320" height="20" fill="#355c7d" stroke="none" />
+<text x="376" y="88" font-size="22" font-weight="700" fill="#fffdf9">dim_user_account_scd2</text>
+<line x1="360" y1="104" x2="680" y2="104" stroke="#2d2a26" stroke-width="2" />
+<text x="376" y="130" font-size="15" fill="#1c1816">user_sk (PK)</text>
+<text x="376" y="152" font-size="15" fill="#1c1816">user_nk</text>
+<text x="376" y="174" font-size="15" fill="#1c1816">user_name</text>
+<text x="376" y="196" font-size="15" fill="#1c1816">role_code</text>
+<text x="376" y="218" font-size="15" fill="#1c1816">organization_sk (FK)</text>
+<text x="376" y="240" font-size="15" fill="#1c1816">effective_from</text>
+<text x="376" y="262" font-size="15" fill="#1c1816">effective_to</text>
+<text x="376" y="284" font-size="15" fill="#1c1816">is_current</text>
+<rect x="720" y="60" width="280" height="122" rx="18" fill="#f8f5ef" stroke="#2d2a26" stroke-width="2" />
+<rect x="720" y="60" width="280" height="44" rx="18" fill="#355c7d" stroke="#2d2a26" stroke-width="2" />
+<rect x="720" y="84" width="280" height="20" fill="#355c7d" stroke="none" />
+<text x="736" y="88" font-size="22" font-weight="700" fill="#fffdf9">dim_solver_family</text>
+<line x1="720" y1="104" x2="1000" y2="104" stroke="#2d2a26" stroke-width="2" />
+<text x="736" y="130" font-size="15" fill="#1c1816">solver_family_sk (PK)</text>
+<text x="736" y="152" font-size="15" fill="#1c1816">solver_family_code</text>
+<text x="736" y="174" font-size="15" fill="#1c1816">solver_family_name</text>
+<rect x="720" y="230" width="280" height="122" rx="18" fill="#f8f5ef" stroke="#2d2a26" stroke-width="2" />
+<rect x="720" y="230" width="280" height="44" rx="18" fill="#355c7d" stroke="#2d2a26" stroke-width="2" />
+<rect x="720" y="254" width="280" height="20" fill="#355c7d" stroke="none" />
+<text x="736" y="258" font-size="22" font-weight="700" fill="#fffdf9">dim_solver</text>
+<line x1="720" y1="274" x2="1000" y2="274" stroke="#2d2a26" stroke-width="2" />
+<text x="736" y="300" font-size="15" fill="#1c1816">solver_sk (PK)</text>
+<text x="736" y="322" font-size="15" fill="#1c1816">solver_type</text>
+<text x="736" y="344" font-size="15" fill="#1c1816">solver_family_sk (FK)</text>
+<rect x="1050" y="60" width="330" height="188" rx="18" fill="#f8f5ef" stroke="#2d2a26" stroke-width="2" />
+<rect x="1050" y="60" width="330" height="44" rx="18" fill="#355c7d" stroke="#2d2a26" stroke-width="2" />
+<rect x="1050" y="84" width="330" height="20" fill="#355c7d" stroke="none" />
+<text x="1066" y="88" font-size="22" font-weight="700" fill="#fffdf9">dim_workload_profile</text>
+<line x1="1050" y1="104" x2="1380" y2="104" stroke="#2d2a26" stroke-width="2" />
+<text x="1066" y="130" font-size="15" fill="#1c1816">workload_sk (PK)</text>
+<text x="1066" y="152" font-size="15" fill="#1c1816">workload_nk</text>
+<text x="1066" y="174" font-size="15" fill="#1c1816">solver_sk (FK)</text>
+<text x="1066" y="196" font-size="15" fill="#1c1816">docker_image</text>
+<text x="1066" y="218" font-size="15" fill="#1c1816">parameter_signature</text>
+<text x="1066" y="240" font-size="15" fill="#1c1816">estimated_cost_band</text>
+<rect x="1050" y="300" width="330" height="144" rx="18" fill="#f8f5ef" stroke="#2d2a26" stroke-width="2" />
+<rect x="1050" y="300" width="330" height="44" rx="18" fill="#355c7d" stroke="#2d2a26" stroke-width="2" />
+<rect x="1050" y="324" width="330" height="20" fill="#355c7d" stroke="none" />
+<text x="1066" y="328" font-size="22" font-weight="700" fill="#fffdf9">dim_parameter_tag</text>
+<line x1="1050" y1="344" x2="1380" y2="344" stroke="#2d2a26" stroke-width="2" />
+<text x="1066" y="370" font-size="15" fill="#1c1816">parameter_tag_sk (PK)</text>
+<text x="1066" y="392" font-size="15" fill="#1c1816">tag_key</text>
+<text x="1066" y="414" font-size="15" fill="#1c1816">tag_value</text>
+<text x="1066" y="436" font-size="15" fill="#1c1816">tag_label</text>
+<rect x="1410" y="160" width="330" height="122" rx="18" fill="#f8f5ef" stroke="#2d2a26" stroke-width="2" />
+<rect x="1410" y="160" width="330" height="44" rx="18" fill="#6c5b7b" stroke="#2d2a26" stroke-width="2" />
+<rect x="1410" y="184" width="330" height="20" fill="#6c5b7b" stroke="none" />
+<text x="1426" y="188" font-size="22" font-weight="700" fill="#fffdf9">bridge_workload_parameter_tag</text>
+<line x1="1410" y1="204" x2="1740" y2="204" stroke="#2d2a26" stroke-width="2" />
+<text x="1426" y="230" font-size="15" fill="#1c1816">workload_sk (FK)</text>
+<text x="1426" y="252" font-size="15" fill="#1c1816">parameter_tag_sk (FK)</text>
+<text x="1426" y="274" font-size="15" fill="#1c1816">allocation_weight</text>
+<rect x="40" y="500" width="280" height="100" rx="18" fill="#f8f5ef" stroke="#2d2a26" stroke-width="2" />
+<rect x="40" y="500" width="280" height="44" rx="18" fill="#355c7d" stroke="#2d2a26" stroke-width="2" />
+<rect x="40" y="524" width="280" height="20" fill="#355c7d" stroke="none" />
+<text x="56" y="528" font-size="22" font-weight="700" fill="#fffdf9">dim_gpu_family</text>
+<line x1="40" y1="544" x2="320" y2="544" stroke="#2d2a26" stroke-width="2" />
+<text x="56" y="570" font-size="15" fill="#1c1816">gpu_family_sk (PK)</text>
+<text x="56" y="592" font-size="15" fill="#1c1816">gpu_family_name</text>
+<rect x="360" y="460" width="320" height="210" rx="18" fill="#f8f5ef" stroke="#2d2a26" stroke-width="2" />
+<rect x="360" y="460" width="320" height="44" rx="18" fill="#355c7d" stroke="#2d2a26" stroke-width="2" />
+<rect x="360" y="484" width="320" height="20" fill="#355c7d" stroke="none" />
+<text x="376" y="488" font-size="22" font-weight="700" fill="#fffdf9">dim_node</text>
+<line x1="360" y1="504" x2="680" y2="504" stroke="#2d2a26" stroke-width="2" />
+<text x="376" y="530" font-size="15" fill="#1c1816">node_sk (PK)</text>
+<text x="376" y="552" font-size="15" fill="#1c1816">node_nk</text>
+<text x="376" y="574" font-size="15" fill="#1c1816">gpu_family_sk (FK)</text>
+<text x="376" y="596" font-size="15" fill="#1c1816">cpu_cores</text>
+<text x="376" y="618" font-size="15" fill="#1c1816">ram_gb</text>
+<text x="376" y="640" font-size="15" fill="#1c1816">performance_tier</text>
+<text x="376" y="662" font-size="15" fill="#1c1816">price_band</text>
+<rect x="720" y="430" width="280" height="122" rx="18" fill="#f8f5ef" stroke="#2d2a26" stroke-width="2" />
+<rect x="720" y="430" width="280" height="44" rx="18" fill="#355c7d" stroke="#2d2a26" stroke-width="2" />
+<rect x="720" y="454" width="280" height="20" fill="#355c7d" stroke="none" />
+<text x="736" y="458" font-size="22" font-weight="700" fill="#fffdf9">dim_task_status</text>
+<line x1="720" y1="474" x2="1000" y2="474" stroke="#2d2a26" stroke-width="2" />
+<text x="736" y="500" font-size="15" fill="#1c1816">task_status_sk (PK)</text>
+<text x="736" y="522" font-size="15" fill="#1c1816">status_code</text>
+<text x="736" y="544" font-size="15" fill="#1c1816">status_group</text>
+<rect x="720" y="620" width="280" height="144" rx="18" fill="#f8f5ef" stroke="#2d2a26" stroke-width="2" />
+<rect x="720" y="620" width="280" height="44" rx="18" fill="#355c7d" stroke="#2d2a26" stroke-width="2" />
+<rect x="720" y="644" width="280" height="20" fill="#355c7d" stroke="none" />
+<text x="736" y="648" font-size="22" font-weight="700" fill="#fffdf9">dim_job_outcome</text>
+<line x1="720" y1="664" x2="1000" y2="664" stroke="#2d2a26" stroke-width="2" />
+<text x="736" y="690" font-size="15" fill="#1c1816">job_outcome_sk (PK)</text>
+<text x="736" y="712" font-size="15" fill="#1c1816">job_status_code</text>
+<text x="736" y="734" font-size="15" fill="#1c1816">validation_status_code</text>
+<text x="736" y="756" font-size="15" fill="#1c1816">outcome_label</text>
+<rect x="1050" y="540" width="330" height="144" rx="18" fill="#f8f5ef" stroke="#2d2a26" stroke-width="2" />
+<rect x="1050" y="540" width="330" height="44" rx="18" fill="#355c7d" stroke="#2d2a26" stroke-width="2" />
+<rect x="1050" y="564" width="330" height="20" fill="#355c7d" stroke="none" />
+<text x="1066" y="568" font-size="22" font-weight="700" fill="#fffdf9">dim_finance_event</text>
+<line x1="1050" y1="584" x2="1380" y2="584" stroke="#2d2a26" stroke-width="2" />
+<text x="1066" y="610" font-size="15" fill="#1c1816">finance_event_sk (PK)</text>
+<text x="1066" y="632" font-size="15" fill="#1c1816">finance_event_code</text>
+<text x="1066" y="654" font-size="15" fill="#1c1816">finance_event_group</text>
+<text x="1066" y="676" font-size="15" fill="#1c1816">flow_direction</text>
+<rect x="40" y="780" width="320" height="232" rx="18" fill="#fff6ee" stroke="#2d2a26" stroke-width="2" />
+<rect x="40" y="780" width="320" height="44" rx="18" fill="#c06c4e" stroke="#2d2a26" stroke-width="2" />
+<rect x="40" y="804" width="320" height="20" fill="#c06c4e" stroke="none" />
+<text x="56" y="808" font-size="22" font-weight="700" fill="#fffdf9">fact_task_daily</text>
+<line x1="40" y1="824" x2="360" y2="824" stroke="#2d2a26" stroke-width="2" />
+<text x="56" y="850" font-size="15" fill="#1c1816">date_key (FK)</text>
+<text x="56" y="872" font-size="15" fill="#1c1816">buyer_user_sk (FK)</text>
+<text x="56" y="894" font-size="15" fill="#1c1816">workload_sk (FK)</text>
+<text x="56" y="916" font-size="15" fill="#1c1816">task_status_sk (FK)</text>
+<text x="56" y="938" font-size="15" fill="#1c1816">tasks_created_count</text>
+<text x="56" y="960" font-size="15" fill="#1c1816">jobs_requested_count</text>
+<text x="56" y="982" font-size="15" fill="#1c1816">total_estimated_cost</text>
+<text x="56" y="1004" font-size="15" fill="#1c1816">total_actual_cost</text>
+<rect x="420" y="760" width="360" height="254" rx="18" fill="#fff6ee" stroke="#2d2a26" stroke-width="2" />
+<rect x="420" y="760" width="360" height="44" rx="18" fill="#c06c4e" stroke="#2d2a26" stroke-width="2" />
+<rect x="420" y="784" width="360" height="20" fill="#c06c4e" stroke="none" />
+<text x="436" y="788" font-size="22" font-weight="700" fill="#fffdf9">fact_job_execution_daily</text>
+<line x1="420" y1="804" x2="780" y2="804" stroke="#2d2a26" stroke-width="2" />
+<text x="436" y="830" font-size="15" fill="#1c1816">date_key (FK)</text>
+<text x="436" y="852" font-size="15" fill="#1c1816">buyer_user_sk (FK)</text>
+<text x="436" y="874" font-size="15" fill="#1c1816">provider_user_sk (FK)</text>
+<text x="436" y="896" font-size="15" fill="#1c1816">node_sk (FK)</text>
+<text x="436" y="918" font-size="15" fill="#1c1816">workload_sk (FK)</text>
+<text x="436" y="940" font-size="15" fill="#1c1816">job_outcome_sk (FK)</text>
+<text x="436" y="962" font-size="15" fill="#1c1816">jobs_count</text>
+<text x="436" y="984" font-size="15" fill="#1c1816">total_job_cost</text>
+<text x="436" y="1006" font-size="15" fill="#1c1816">avg_cpu_usage</text>
+<rect x="840" y="790" width="320" height="166" rx="18" fill="#fff6ee" stroke="#2d2a26" stroke-width="2" />
+<rect x="840" y="790" width="320" height="44" rx="18" fill="#c06c4e" stroke="#2d2a26" stroke-width="2" />
+<rect x="840" y="814" width="320" height="20" fill="#c06c4e" stroke="none" />
+<text x="856" y="818" font-size="22" font-weight="700" fill="#fffdf9">fact_finance_daily</text>
+<line x1="840" y1="834" x2="1160" y2="834" stroke="#2d2a26" stroke-width="2" />
+<text x="856" y="860" font-size="15" fill="#1c1816">date_key (FK)</text>
+<text x="856" y="882" font-size="15" fill="#1c1816">user_sk (FK)</text>
+<text x="856" y="904" font-size="15" fill="#1c1816">finance_event_sk (FK)</text>
+<text x="856" y="926" font-size="15" fill="#1c1816">event_count</text>
+<text x="856" y="948" font-size="15" fill="#1c1816">total_amount</text>
+<rect x="1260" y="760" width="470" height="250" rx="18" fill="#ece5d8" stroke="#2d2a26" stroke-width="2" />
+<text x="1280" y="796" font-size="24" font-weight="700" fill="#1c1816">Design Notes</text>
+<text x="1280" y="836" font-size="16" fill="#1c1816">Fact tables are daily aggregates, not OLTP copies.</text>
+<text x="1280" y="864" font-size="16" fill="#1c1816">dim_user_account_scd2 tracks role and organization history.</text>
+<text x="1280" y="892" font-size="16" fill="#1c1816">bridge_workload_parameter_tag supports multi-valued JSON attributes.</text>
+<text x="1280" y="920" font-size="16" fill="#1c1816">Solver and GPU dimensions normalize reusable hierarchies.</text>
+<text x="1280" y="836" font-size="16" fill="#1c1816">Power BI can consume the reporting views directly.</text>
+</svg>
