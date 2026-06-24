@@ -1,5 +1,5 @@
 job_ref,task_ref,node_code,status_code,retry_count,created_at,started_at,finished_at,output_path,checksum,validation_status_code,validation_reason,cpu_cost,gpu_cost,total_cost
 JOB-2026-0001,TASK-2026-0001,node-north-01,completed,0,2026-06-18 08:15:00+00,2026-06-18 08:20:00+00,2026-06-18 11:05:00+00,/results/TASK-2026-0001/job-1.tar.zst,sha256:7a3dfeb7c8ddf001,valid,,74.20,91.50,165.70
 JOB-2026-0002,TASK-2026-0001,node-north-02,completed,1,2026-06-18 08:16:00+00,2026-06-18 08:25:00+00,2026-06-18 09:40:00+00,/results/TASK-2026-0001/job-2.tar.zst,sha256:12fe4439aa880e10,valid,,7.50,9.50,17.00
-JOB-2026-0003,TASK-2026-0002,node-north-01,running,0,2026-06-19 12:05:00+00,2026-06-19 12:10:00+00,,,,,,,
-JOB-2026-0004,TASK-2026-0003,,queued,0,2026-06-20 09:20:00+00,,,,,,,,
+JOB-2026-0003,TASK-2026-0002,node-north-01,running,0,2026-06-19 12:05:00+00,2026-06-19 12:10:00+00,,,,,,,,
+JOB-2026-0004,TASK-2026-0003,,queued,0,2026-06-20 09:20:00+00,,,,,,,,,

@@ -249,6 +249,19 @@ LEFT JOIN dim_organization org
   ON org.organization_name = su.organization_name;
 
 UPDATE dim_user_account_scd2 d
+SET effective_from = s.created_at
+FROM src_user_dim s
+WHERE d.user_nk = s.user_nk
+    AND d.is_current = true
+    AND d.effective_from > s.created_at
+    AND NOT EXISTS (
+            SELECT 1
+            FROM dim_user_account_scd2 older
+            WHERE older.user_nk = d.user_nk
+                AND older.user_sk <> d.user_sk
+    );
+
+UPDATE dim_user_account_scd2 d
 SET
     effective_to = (SELECT batch_ts FROM etl_control),
     is_current = false
@@ -275,7 +288,10 @@ SELECT
     s.user_name,
     s.role_code,
     s.organization_sk,
-    (SELECT batch_ts FROM etl_control),
+    CASE
+        WHEN d.user_sk IS NULL THEN s.created_at
+        ELSE (SELECT batch_ts FROM etl_control)
+    END,
     '9999-12-31 00:00:00+00'::timestamptz,
     true
 FROM src_user_dim s
@@ -286,6 +302,26 @@ WHERE d.user_sk IS NULL
    OR d.user_name IS DISTINCT FROM s.user_name
    OR d.role_code IS DISTINCT FROM s.role_code
    OR d.organization_sk IS DISTINCT FROM s.organization_sk;
+
+INSERT INTO dim_user_account_scd2 (
+    user_nk,
+    user_name,
+    role_code,
+    organization_sk,
+    effective_from,
+    effective_to,
+    is_current
+)
+VALUES (
+    '__UNASSIGNED_PROVIDER__',
+    'Unassigned Provider',
+    'system',
+    NULL,
+    '1900-01-01 00:00:00+00'::timestamptz,
+    '9999-12-31 00:00:00+00'::timestamptz,
+    true
+)
+ON CONFLICT (user_nk, effective_from) DO NOTHING;
 
 INSERT INTO dim_solver_family (solver_family_code, solver_family_name)
 SELECT DISTINCT
@@ -449,6 +485,30 @@ WHERE
     OR dim_node.performance_tier IS DISTINCT FROM EXCLUDED.performance_tier
     OR dim_node.price_band IS DISTINCT FROM EXCLUDED.price_band;
 
+INSERT INTO dim_node (
+    node_nk,
+    gpu_family_sk,
+    gpu_model,
+    cpu_cores,
+    ram_gb,
+    gpu_vram_gb,
+    disk_gb,
+    performance_tier,
+    price_band
+)
+VALUES (
+    '__UNASSIGNED_NODE__',
+    NULL,
+    'UNASSIGNED',
+    0,
+    0,
+    0,
+    0,
+    'unassigned',
+    'unassigned'
+)
+ON CONFLICT (node_nk) DO NOTHING;
+
 INSERT INTO dim_date (
     date_key,
     full_date,
@@ -572,11 +632,11 @@ JOIN dim_user_account_scd2 buyer
  AND sj.event_ts >= buyer.effective_from
  AND sj.event_ts < buyer.effective_to
 LEFT JOIN dim_user_account_scd2 provider
-  ON provider.user_nk = sj.provider_email
+    ON provider.user_nk = COALESCE(sj.provider_email, '__UNASSIGNED_PROVIDER__')
  AND sj.event_ts >= provider.effective_from
  AND sj.event_ts < provider.effective_to
 LEFT JOIN dim_node dn
-  ON dn.node_nk = sj.node_code
+    ON dn.node_nk = COALESCE(sj.node_code, '__UNASSIGNED_NODE__')
 JOIN dim_workload_profile dwp
   ON dwp.workload_nk = md5(sj.solver_type || '|' || sj.docker_image || '|' || sj.parameters_json)
 JOIN dim_job_outcome djo
