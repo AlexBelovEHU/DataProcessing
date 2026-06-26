@@ -1,15 +1,17 @@
 {\rtf1\adeflang1025\ansi\ansicpg1252\uc1\adeff0\deff0\stshfdbch31505\stshfloch31506\stshfhich31506\stshfbi0\deflang2057\deflangfe2057\themelang2057\themelangfe0\themelangcs0{\fonttbl{\f0\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f34\fbidi \froman\fcharset0\fprq2{\*\panose 02040503050406030204}Cambria Math;}
-{\f37\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}{\f45\fbidi \fmodern\fcharset0\fprq1{\*\panose 00000000000000000000}Consolas;}{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
-{\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhimajor\f31502\fbidi \fswiss\fcharset0\fprq2 Aptos Display;}{\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
-{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fdbminor\f31505\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhiminor\f31506\fbidi \fswiss\fcharset0\fprq2 Aptos;}
-{\fbiminor\f31507\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f47\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\f48\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
-{\f50\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\f51\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}{\f52\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f53\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}
-{\f54\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}{\f55\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f57\fbidi \froman\fcharset238\fprq2 Cambria Math CE;}{\f58\fbidi \froman\fcharset204\fprq2 Cambria Math Cyr;}
-{\f60\fbidi \froman\fcharset161\fprq2 Cambria Math Greek;}{\f61\fbidi \froman\fcharset162\fprq2 Cambria Math Tur;}{\f64\fbidi \froman\fcharset186\fprq2 Cambria Math Baltic;}{\f65\fbidi \froman\fcharset163\fprq2 Cambria Math (Vietnamese);}
-{\f67\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}{\f68\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\f70\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\f71\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}
-{\f72\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}{\f73\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}{\f74\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\f75\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}
-{\f77\fbidi \fmodern\fcharset238\fprq1 Consolas CE;}{\f78\fbidi \fmodern\fcharset204\fprq1 Consolas Cyr;}{\f80\fbidi \fmodern\fcharset161\fprq1 Consolas Greek;}{\f81\fbidi \fmodern\fcharset162\fprq1 Consolas Tur;}
-{\f84\fbidi \fmodern\fcharset186\fprq1 Consolas Baltic;}{\f85\fbidi \fmodern\fcharset163\fprq1 Consolas (Vietnamese);}{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
+{\f37\fbidi \fswiss\fcharset0\fprq2{\*\panose 020f0502020204030204}Calibri;}{\f42\fbidi \fswiss\fcharset0\fprq2 Aptos;}{\f45\fbidi \fmodern\fcharset0\fprq1{\*\panose 020b0609020204030204}Consolas;}
+{\flomajor\f31500\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fdbmajor\f31501\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhimajor\f31502\fbidi \fswiss\fcharset0\fprq2 Aptos Display;}
+{\fbimajor\f31503\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\flominor\f31504\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\fdbminor\f31505\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\fhiminor\f31506\fbidi \fswiss\fcharset0\fprq2 Aptos;}{\fbiminor\f31507\fbidi \froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f47\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\f48\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\f50\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\f51\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
+{\f52\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\f53\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\f54\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
+{\f55\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\f57\fbidi \froman\fcharset238\fprq2 Cambria Math CE;}{\f58\fbidi \froman\fcharset204\fprq2 Cambria Math Cyr;}{\f60\fbidi \froman\fcharset161\fprq2 Cambria Math Greek;}
+{\f61\fbidi \froman\fcharset162\fprq2 Cambria Math Tur;}{\f64\fbidi \froman\fcharset186\fprq2 Cambria Math Baltic;}{\f65\fbidi \froman\fcharset163\fprq2 Cambria Math (Vietnamese);}{\f67\fbidi \fswiss\fcharset238\fprq2 Calibri CE;}
+{\f68\fbidi \fswiss\fcharset204\fprq2 Calibri Cyr;}{\f70\fbidi \fswiss\fcharset161\fprq2 Calibri Greek;}{\f71\fbidi \fswiss\fcharset162\fprq2 Calibri Tur;}{\f72\fbidi \fswiss\fcharset177\fprq2 Calibri (Hebrew);}
+{\f73\fbidi \fswiss\fcharset178\fprq2 Calibri (Arabic);}{\f74\fbidi \fswiss\fcharset186\fprq2 Calibri Baltic;}{\f75\fbidi \fswiss\fcharset163\fprq2 Calibri (Vietnamese);}{\f77\fbidi \fswiss\fcharset238\fprq2 Aptos CE;}
+{\f78\fbidi \fswiss\fcharset204\fprq2 Aptos Cyr;}{\f80\fbidi \fswiss\fcharset161\fprq2 Aptos Greek;}{\f81\fbidi \fswiss\fcharset162\fprq2 Aptos Tur;}{\f84\fbidi \fswiss\fcharset186\fprq2 Aptos Baltic;}
+{\f85\fbidi \fswiss\fcharset163\fprq2 Aptos (Vietnamese);}{\f87\fbidi \fmodern\fcharset238\fprq1 Consolas CE;}{\f88\fbidi \fmodern\fcharset204\fprq1 Consolas Cyr;}{\f90\fbidi \fmodern\fcharset161\fprq1 Consolas Greek;}
+{\f91\fbidi \fmodern\fcharset162\fprq1 Consolas Tur;}{\f94\fbidi \fmodern\fcharset186\fprq1 Consolas Baltic;}{\f95\fbidi \fmodern\fcharset163\fprq1 Consolas (Vietnamese);}{\flomajor\f31508\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}
 {\flomajor\f31509\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}{\flomajor\f31511\fbidi \froman\fcharset161\fprq2 Times New Roman Greek;}{\flomajor\f31512\fbidi \froman\fcharset162\fprq2 Times New Roman Tur;}
 {\flomajor\f31513\fbidi \froman\fcharset177\fprq2 Times New Roman (Hebrew);}{\flomajor\f31514\fbidi \froman\fcharset178\fprq2 Times New Roman (Arabic);}{\flomajor\f31515\fbidi \froman\fcharset186\fprq2 Times New Roman Baltic;}
 {\flomajor\f31516\fbidi \froman\fcharset163\fprq2 Times New Roman (Vietnamese);}{\fdbmajor\f31518\fbidi \froman\fcharset238\fprq2 Times New Roman CE;}{\fdbmajor\f31519\fbidi \froman\fcharset204\fprq2 Times New Roman Cyr;}
@@ -36,9 +38,9 @@
 Normal;}{\*\cs10 \additive \ssemihidden \sunhideused \spriority1 Default Paragraph Font;}{\*
 \ts11\tsrowd\trftsWidthB3\trpaddl108\trpaddr108\trpaddfl3\trpaddft3\trpaddfb3\trpaddfr3\trcbpat1\trcfpat1\tblind0\tblindtype3\tsvertalt\tsbrdrt\tsbrdrl\tsbrdrb\tsbrdrr\tsbrdrdgl\tsbrdrdgr\tsbrdrh\tsbrdrv \ql \li0\ri0\sa160\sl278\slmult1
 \widctlpar\wrapdefault\aspalpha\aspnum\faauto\adjustright\rin0\lin0\itap0 \rtlch\fcs1 \af0\afs24\alang1025 \ltrch\fcs0 \fs24\lang2057\langfe2057\kerning2\loch\f31506\hich\af31506\dbch\af31505\cgrid\langnp2057\langfenp2057 
-\snext11 \ssemihidden \sunhideused Normal Table;}}{\*\rsidtbl \rsid4592661\rsid8276410\rsid12190872\rsid12344074\rsid13461184}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0\mnaryLim1}
-{\info{\operator Alexander Belov}{\creatim\yr2026\mo6\dy25\min58}{\revtim\yr2026\mo6\dy25\hr10\min47}{\version3}{\edmins15}{\nofpages4}{\nofwords1232}{\nofchars7026}{\nofcharsws8242}{\vern17}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/office/word/
-2003/wordml}}\paperw11906\paperh16838\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
+\snext11 \ssemihidden \sunhideused Normal Table;}}{\*\rsidtbl \rsid4592661\rsid5718569\rsid8276410\rsid12190872\rsid12344074\rsid13461184}{\mmathPr\mmathFont34\mbrkBin0\mbrkBinSub0\msmallFrac0\mdispDef1\mlMargin0\mrMargin0\mdefJc1\mwrapIndent1440\mintLim0
+\mnaryLim1}{\info{\operator Alexander Belov}{\creatim\yr2026\mo6\dy25\min58}{\revtim\yr2026\mo6\dy26\hr10\min54}{\version4}{\edmins16}{\nofpages4}{\nofwords1052}{\nofchars6003}{\nofcharsws7041}{\vern17}}{\*\xmlnstbl {\xmlns1 http://schemas.microsoft.com/o
+ffice/word/2003/wordml}}\paperw11906\paperh16838\margl1440\margr1440\margt1440\margb1440\gutter0\ltrsect 
 \widowctrl\ftnbj\aenddoc\trackmoves0\trackformatting1\donotembedsysfont0\relyonvml0\donotembedlingdata1\grfdocevents0\validatexml0\showplaceholdtext0\ignoremixedcontent0\saveinvalidxml0\showxmlerrors0\horzdoc\dghspace120\dgvspace120\dghorigin1701
 \dgvorigin1984\dghshow0\dgvshow3\jcompress\viewkind1\viewscale110\rsidroot12190872 \fet0{\*\wgrffmtfilter 2450}\ilfomacatclnup0\ltrpar \sectd \ltrsect\linex0\sectdefaultcl\sftnbj {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl2
 \pnucltr\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang {\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang {\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang {\pntxtb (}{\pntxta )}}{\*\pnseclvl6
@@ -155,8 +157,8 @@ he OLTP structure is normalized to third normal form. Lookup tables separate rep
 \hich\af37\dbch\af31505\loch\f37 : creates the separate OLAP database, warehouse schema, dimensions, facts, and reporting views
 \par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4592661 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 - }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 
 \hich\af45\dbch\af31505\loch\f45 etl_oltp_to_olap.sql}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 : moves data from OLTP to OLAP through rerunnable SQL ETL
-\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 -\hich\af37\dbch\af31505\loch\f37  }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 
-\hich\af45\dbch\af31505\loch\f45 compute_marketplace_schema.svg}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 : OLTP logical schema picture
+\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 - }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 
+\hich\af45\dbch\af31505\loch\f45 compute_marketplace_schema.svg}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 : OLTP logica\hich\af37\dbch\af31505\loch\f37 l schema picture
 \par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid4592661 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 - }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 
 \hich\af45\dbch\af31505\loch\f45 compute_marketplace_olap_schema.svg}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 : OLAP logical schema picture
 \par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 
@@ -170,8 +172,8 @@ he OLTP structure is normalized to third normal form. Lookup tables separate rep
 \hich\af37\dbch\af31505\loch\f37 , not from a GUI query editor, because the load script uses client-side  and the OLAP scripts use }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 psql}{\rtlch\fcs1 \af37 
 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37  meta-commands. If }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 psql}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 
 \hich\af37\dbch\af31505\loch\f37  is not on the Windows }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 PATH}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 
-, use the full executable path instead, for example }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 C:\\Program Files\\\hich\af45\dbch\af31505\loch\f45 PostgreSQL\\17\\bin\\psql.exe}{\rtlch\fcs1 \af37 
-\ltrch\fcs0 \f37\kerning0\insrsid12344074 .
+, use the full executable path instead, for example }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 C:\\Program Files\\PostgreSQL\\17\\bin\\psql.exe}{\rtlch\fcs1 \af37 \ltrch\fcs0 
+\f37\kerning0\insrsid12344074 .
 \par \hich\af37\dbch\af31505\loch\f37 3. Create database }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 compute_marketplace_oltp}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 
 \hich\af37\dbch\af31505\loch\f37  from an existing maintenance database such as }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 postgres}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 .
 \par \hich\af37\dbch\af31505\loch\f37 4. Run }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 init_compute_marketplace_oltp.sql}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 
@@ -179,57 +181,36 @@ he OLTP structure is normalized to third normal form. Lookup tables separate rep
 \par \hich\af37\dbch\af31505\loch\f37 5. Run }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 load_compute_marketplace_oltp.sql}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 
 \hich\af37\dbch\af31505\loch\f37  from the same folder.
 \par 
-\par \hich\af37\dbch\af31505\loch\f37 Example:
-\par }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 psql -U postgres -d postgres -c "CREATE DATABASE compute_marketplace_oltp;"
-\par \hich\af45\dbch\af31505\loch\f45 psql -U postgres -d compute_marketplace_oltp -f init_compute_marketplace_oltp.sql
-\par \hich\af45\dbch\af31505\loch\f45 psql -U postgres -d compute_marketplace_oltp -f load_compute_marketplace_oltp.sql}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 
-\par 
-\par \hich\af37\dbch\af31505\loch\f37 Com\hich\af37\dbch\af31505\loch\f37 plete Windows PowerShell command sequence:
-\par }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 cd C:\\Users\\maila\\Projects\\Uni\\S4\\DataProcessing\\couseWork
-\par \hich\af45\dbch\af31505\loch\f45 & "C:\\Program Files\\PostgreSQL\\17\\bin\\psql.exe" -h localhost -U postgres -d postgres -W -c "CREATE DATABASE compute_marketplace_oltp;"
-\par \hich\af45\dbch\af31505\loch\f45 & "C:\\Program Files\\PostgreSQL\\17\\bin\\psql.exe" -h localhost -U postgres -d compute_marketplace_oltp -W -f init_compute_marketplace_oltp.sql
-\par \hich\af45\dbch\af31505\loch\f45 & "C:\\Program Files\\PostgreSQL\\17\\bin\\psql.exe" -h localhost -U postgres -d compute_marketplace_oltp -W -f load_compute_marketplace_ol\hich\af45\dbch\af31505\loch\f45 tp.sql}{\rtlch\fcs1 \af37 \ltrch\fcs0 
-\f37\kerning0\insrsid12344074 
-\par 
 \par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 6.2 Create and load the OLAP database}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 
 \par \hich\af37\dbch\af31505\loch\f37 1. Run }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 init_compute_marketplace_olap.sql}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 
 \hich\af37\dbch\af31505\loch\f37  from }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 psql}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 
- while connected to a maintenance database such as }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 postgres}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 
-. The script creates database }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 compute_marketplace_olap}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 
- if it does not already exist and then connects to it.
+ while connected to a maintenan\hich\af37\dbch\af31505\loch\f37 ce database such as }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 postgres}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 
+\hich\af37\dbch\af31505\loch\f37 . The script creates database }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 compute_marketplace_olap}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 
+\hich\af37\dbch\af31505\loch\f37  if it does not already exist and then connects to it.
 \par \hich\af37\dbch\af31505\loch\f37 2. Review the connection variable in }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 etl_oltp_to_olap.sql}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 
 \hich\af37\dbch\af31505\loch\f37 . The default is:
 \par }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 host=localhost port=5432 dbname=compute_marketplace_oltp user=postgres}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 
-\par \hich\af37\dbch\af31505\loch\f37 3. If PostgreSQL password authentication is enabled, include the password in the OLTP connection strin\hich\af37\dbch\af31505\loch\f37 g used by }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 
-\hich\af45\dbch\af31505\loch\f45 dblink}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 , or override the variable with }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 
-\hich\af45\dbch\af31505\loch\f45 -v oltp_conn='...'}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 .
+\par \hich\af37\dbch\af31505\loch\f37 3. If PostgreSQL password authentication is enabled, include the password in the OLTP connection string used by }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 dblink}{
+\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 , or override the variable with }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 -v oltp_conn='...'}{\rtlch\fcs1 
+\af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 .
 \par \hich\af37\dbch\af31505\loch\f37 4. Run }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 etl_oltp_to_olap.sql}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 
  from }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 psql}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37 . The outer }{\rtlch\fcs1 \af45 \ltrch\fcs0 
-\f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 psql}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37  session may prompt for the }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 
-\hich\af45\dbch\af31505\loch\f45 postgres}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37  password, and the }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 
-dblink}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37  connection must also be able to authenticate to }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 
-compute_marketplace_oltp}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 .
+\f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 psql}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37  sessi\hich\af37\dbch\af31505\loch\f37 on may prompt for the }{\rtlch\fcs1 \af45 \ltrch\fcs0 
+\f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 postgres}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37  password, and the }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 
+\hich\af45\dbch\af31505\loch\f45 dblink}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 \hich\af37\dbch\af31505\loch\f37  connection must also be able to authenticate to }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 
+\hich\af45\dbch\af31505\loch\f45 compute_marketplace_oltp}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 .
 \par 
-\par \hich\af37\dbch\af31505\loch\f37 Example:
-\par }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 psql -d postgres -f init_compute_marketplace_olap.sql
-\par \hich\af45\dbch\af31505\loch\f45 psql -d postgres -v oltp_conn='host=localhost port=5432 dbname=compute_marketplace_oltp user=postgres password=your_password' -f etl_oltp_to_olap.sql}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 
-\par 
-\par \hich\af37\dbch\af31505\loch\f37 Complete Windows PowerShell command sequence:
-\par }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid12344074 \hich\af45\dbch\af31505\loch\f45 & "C:\\Program Files\\PostgreSQL\\17\\bin\\psql.exe" -h localhost -U postgres -d postgres -W -f init_compute_marketplace_olap.sql
-\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0\pararsid8276410 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid8276410\charrsid8276410 \hich\af37\dbch\af31505\loch\f37 & "C:\\Program Files\\PostgreSQL\\17\\bin\\
-\hich\af37\dbch\af31505\loch\f37 psql.exe" `
-\par \hich\af37\dbch\af31505\loch\f37   -h localhost `
-\par \hich\af37\dbch\af31505\loch\f37   -U postgres `
-\par \hich\af37\dbch\af31505\loch\f37   -d postgres `
-\par \hich\af37\dbch\af31505\loch\f37   -W `
-\par \hich\af37\dbch\af31505\loch\f37   -v 'oltp_conn=host=localhost port=5432 dbname=compute_marketplace_oltp user=postgres password=YOUR_REAL_PASSWORD' `
-\par \hich\af37\dbch\af31505\loch\f37   -f etl_oltp_to_olap.sql}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid8276410 
-\par }\pard \ltrpar\ql \li0\ri0\nowidctlpar\wrapdefault\faauto\rin0\lin0\itap0 {\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid8276410 
+\par \hich\af37\dbch\af31505\loch\f37 Recommended Windows PowerShell helper:
+\par }{\rtlch\fcs1 \af45 \ltrch\fcs0 \f45\kerning0\insrsid4592661 \hich\af45\dbch\af31505\loch\f45 ._compute_marketplace.ps1
+\par \hich\af45\dbch\af31505\loch\f45 Invoke-ComputeMarketplaceSetup
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid4592661 \hich\af37\dbch\af31505\loch\f37 This function prompts once for the PostgreSQL password and runs the full OLTP and OLAP sequence end to end.
+\par }{\rtlch\fcs1 \af0 \ltrch\fcs0 \insrsid14972825 
+\par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid8276410 
 \par }{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid12344074 
 \par \hich\af37\dbch\af31505\loch\f37 The ETL is rerunnable. It uses conditional updates, SCD2 change detection, and fact upserts so unchanged rows are not rewritten.
 \par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\kerning0\insrsid12344074 
 \par }{\rtlch\fcs1 \ab\af37 \ltrch\fcs0 \b\f37\kerning0\insrsid4592661 \hich\af37\dbch\af31505\loch\f37 7. Power BI report
-\par \hich\af37\dbch\af31505\loch\f37 L\hich\af37\dbch\af31505\loch\f37 oad\hich\af37\dbch\af31505\loch\f37  report from report.pbix}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid4592661 
+\par \hich\af37\dbch\af31505\loch\f37 Load report from report.pbix}{\rtlch\fcs1 \af37 \ltrch\fcs0 \f37\kerning0\insrsid4592661 
 \par }{\*\themedata 504b030414000600080000002100e9de0fbfff0000001c020000130000005b436f6e74656e745f54797065735d2e786d6cac91cb4ec3301045f748fc83e52d4a
 9cb2400825e982c78ec7a27cc0c8992416c9d8b2a755fbf74cd25442a820166c2cd933f79e3be372bd1f07b5c3989ca74aaff2422b24eb1b475da5df374fd9ad
 5689811a183c61a50f98f4babebc2837878049899a52a57be670674cb23d8e90721f90a4d2fa3802cb35762680fd800ecd7551dc18eb899138e3c943d7e503b6
@@ -375,8 +356,8 @@ fffffffffffffffffdfffffffeffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
-ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e500000000000000000000000000a6
-14f07604dd01feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
+ffffffffffffffffffffffffffffffff52006f006f007400200045006e00740072007900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016000500ffffffffffffffffffffffff0c6ad98892f1d411a65f0040963251e5000000000000000000000000903e
+f20f4105dd01feffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff00000000000000000000000000000000000000000000000000000000
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff0000000000000000000000000000000000000000000000000000
 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffff000000000000000000000000000000000000000000000000
 0000000000000000000000000000000000000000000000000105000000000000}}
